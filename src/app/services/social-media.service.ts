@@ -31,10 +31,16 @@ export class SocialMediaService {
     email = email.replace(/\s/g, '')
 
     /* eslint-disable no-undef */
-    navigator.clipboard
-      ? navigator.clipboard.writeText(email)
-      : window.open(`mailto:${email}`, '_self')
+    // navigator.clipboard
+    //  ? navigator.clipboard.writeText(email)
+    //  : window.open(`mailto:${email}`, '_self')
     /* eslint-enable no-undef */
+
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(email)
+    } else {
+      window.open(`mailto:${email}`, '_self')
+    }
   }
 
   format(network: SocialMediaModel): SocialMediaModel {

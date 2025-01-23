@@ -12,13 +12,21 @@ export class NavbarComponent implements OnInit, OnDestroy {
 
   @ViewChild('navbar') navbarRef!: ElementRef
 
-  constructor(private router: Router, private sidebarService: SidebarService) {}
+  constructor(
+    private router: Router,
+    private sidebarService: SidebarService
+  ) {}
 
   ngOnInit(): void {
     if (this.isBelowBanner) {
       window.addEventListener('scroll', () => {
         // if a whole page was scrolled
-        window.scrollY > window.innerHeight ? this.setSticky() : this.unsetSticky()
+        // window.scrollY > window.innerHeight ? this.setSticky() : this.unsetSticky()
+        if (window.scrollY > window.innerHeight) {
+          this.setSticky()
+        } else {
+          this.unsetSticky()
+        }
       })
     } else {
       this.setSticky()

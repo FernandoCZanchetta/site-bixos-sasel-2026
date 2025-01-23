@@ -303,7 +303,10 @@ export class SidebarComponent implements OnInit, OnDestroy {
 
   private expanded?: SidebarItemModel
 
-  constructor(private router: Router, private sidebarService: SidebarService) {}
+  constructor(
+    private router: Router,
+    private sidebarService: SidebarService
+  ) {}
 
   ngOnInit(): void {
     const sidebarElement = document.querySelector('#sidebar')
@@ -357,7 +360,12 @@ export class SidebarComponent implements OnInit, OnDestroy {
 
     this.subscriptions.push(
       this.sidebarService.visibility$.subscribe(isOpen => {
-        isOpen ? this.sidebar.show() : this.sidebar.hide()
+        // isOpen ? this.sidebar.show() : this.sidebar.hide()
+        if (isOpen) {
+          this.sidebar.show()
+        } else {
+          this.sidebar.hide()
+        }
       })
     )
 
