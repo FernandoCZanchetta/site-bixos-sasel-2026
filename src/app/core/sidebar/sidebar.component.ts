@@ -124,6 +124,10 @@ export class SidebarComponent implements OnInit, OnDestroy {
           title: 'Datas das chamadas - Provão Paulista',
           id: 'datas-provão-paulista',
         },
+        {
+          title: 'Confirmação de matrícula - Provão Paulista',
+          id: 'confirmacao-matricula-provao-paulista',
+        },
       ],
     },
     {
