@@ -11,6 +11,14 @@ export class HomeComponent {
   sponsorsImages: ImageGridItemModel[] = [
     {
       image: {
+        src: '/assets/images/home/abias.svg',
+        alt: 'Abias',
+        caption: 'Abias Imóveis',
+      },
+      url: 'https://abiasimoveis.com.br/',
+    },
+    {
+      image: {
         src: '/assets/images/home/ca-and-ma.svg',
         alt: 'Ca and Ma',
         caption: 'Ca and Ma',
@@ -27,11 +35,11 @@ export class HomeComponent {
     },
     {
       image: {
-        src: '/assets/images/home/roca.svg',
-        alt: 'roca',
-        caption: 'Roca Imóveis',
+        src: '/assets/images/home/tanca.svg',
+        alt: 'Tanca',
+        caption: 'Tanca',
       },
-      url: 'https://roca.com.br/',
+      url: 'https://www.tanca.com.br/',
     },
   ]
   constructor(public sidebarService: SidebarService) {}

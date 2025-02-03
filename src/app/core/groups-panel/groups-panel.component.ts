@@ -16,11 +16,11 @@ export class GroupsPanelComponent implements OnInit {
   groups: SocialMediaModel[] = [
     {
       name: SocialMedia.Instagram,
-      url: 'https://www.instagram.com/eletrica_usp2024/',
+      url: 'https://www.instagram.com/eletrica_usp2025/',
     },
     {
       name: SocialMedia.WhatsAppGroup,
-      url: 'https://chat.whatsapp.com/BGOG4zKXXAZ2FGF5JfKgiB',
+      url: 'https://chat.whatsapp.com/LsKtWV3OlcoAB9Xg6BgryT',
     },
   ]
 }
