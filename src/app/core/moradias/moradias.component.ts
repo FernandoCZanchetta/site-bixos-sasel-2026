@@ -15,7 +15,7 @@ export class MoradiasComponent {
         src: '/assets/images/moradias/entradas.jpg',
         caption: 'Mapa identificando as principais saídas do Campus I',
       },
-      text: 'No campus I existem 4 entradas principais, apelidadas de acordo com os prédios dos quais estão próximas. São elas: <b>física</b>, <b>matemática</b>, <b>produção</b> e <b>arquitetura</b>.<br><br> Elas são frequentemente utilizadas como referência para procurar apartamentos, e repúblicas. Por exemplo, um anúncio pode dizer: <i>"nossa rep está a 700m da saída da ARQ"</i>.<br><br> Tem apartamentos e reps perto de todas as quatro saídas; a questão é pesquisar e encontrar aquela que é mais conveniente no seu caso!',
+      text: 'No campus I existem 4 entradas principais, apelidadas de acordo com os prédios dos quais estão próximas. São elas: <b>Física</b>, <b>Matemática</b>, <b>Produção</b> e <b>Arquitetura</b>.<br><br> Elas são frequentemente utilizadas como referência para procurar apartamentos, e repúblicas. Por exemplo, um anúncio pode dizer: <i>"nossa rep está a 700m da saída da ARQ"</i>.<br><br> Tem apartamentos e reps perto de todas as quatro saídas; a questão é pesquisar e encontrar aquela que é mais conveniente no seu caso!',
     },
   ]
 
@@ -70,7 +70,7 @@ export class MoradiasComponent {
       image: {
         src: '/assets/images/moradias/roca.svg',
         alt: 'roca',
-        caption: 'Imobiliária Roca',
+        caption: 'Roca Imóveis',
       },
       url: 'https://roca.com.br/',
     },
@@ -86,7 +86,7 @@ export class MoradiasComponent {
       image: {
         src: '/assets/images/moradias/maria-aires.svg',
         alt: 'maria aires',
-        caption: 'Maria Aires',
+        caption: 'Maria Aires Imóveis',
       },
       url: 'https://mariaaires.com.br/',
     },
@@ -102,7 +102,7 @@ export class MoradiasComponent {
       image: {
         src: '/assets/images/moradias/uniao.svg',
         alt: 'união',
-        caption: 'Imobiliária União',
+        caption: 'Imobiliária União Imóveis',
       },
       url: 'http://www.iuniaoimoveis.com.br/',
     },
