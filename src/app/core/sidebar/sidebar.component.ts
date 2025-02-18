@@ -249,6 +249,10 @@ export class SidebarComponent implements OnInit, OnDestroy {
           title: 'Grupos Extracurriculares',
           id: 'extracurriculares',
         },
+        {
+          title: 'Créditos AAC e AEx',
+          id: 'creditos',
+        },
       ],
     },
     {
