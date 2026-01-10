@@ -23,7 +23,7 @@ const routes: RouteModel[] = [
     path: '',
     component: HomeComponent,
     data: {
-      title: 'Recepção dos Bixos da Elétrica - 2025',
+      title: 'Recepção dos Bixos da Elétrica - 2026',
       background: [
         { src: '/assets/images/home/banner.jpg', alt: 'Membros da SA-SEL em 2019' },
         {
