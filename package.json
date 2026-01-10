@@ -54,6 +54,6 @@
     "typescript": "~5.5.4"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.34.4"
+    "@rollup/rollup-linux-x64-gnu": "4.55.1"
   }
 }
