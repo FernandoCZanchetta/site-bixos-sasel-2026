@@ -25,22 +25,22 @@ export class IcExtraComponent {
     {
       name: 'Atlética CAASO',
       categories: [ExtracurricularGroupTypes.Sports],
-      url: 'http://atleticacaaso.com/',
+      url: 'https://linktr.ee/atleticacaaso',
     },
     {
       name: 'Baja EESC - USP',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'https://www.bajaeescusp.com/',
+      url: 'https://baja.eesc.usp.br/',
     },
     {
       name: 'CAASO',
       categories: [ExtracurricularGroupTypes.Representative],
-      url: 'https://www.facebook.com/CAASO.USP/',
+      url: 'https://linktr.ee/caaso',
     },
     {
       name: 'Campanha USP do Agasalho',
       categories: [ExtracurricularGroupTypes.Social],
-      url: 'https://www.facebook.com/campanhadoagasalhouspsc/',
+      url: 'https://campanhauspdoagasalho.eesc.usp.br/',
     },
     {
       name: 'Centro de Voluntariado Universitário de São Carlos',
@@ -50,7 +50,7 @@ export class IcExtraComponent {
     {
       name: 'Cia de Dança CAASO',
       categories: [ExtracurricularGroupTypes.Artistic],
-      url: 'https://www.facebook.com/CompanhiadeDancaCAASO/',
+      url: 'https://linktr.ee/ciadedancacaaso',
     },
     {
       name: 'Coletivo de Mulheres CAASO/FEDERAL',
@@ -65,12 +65,12 @@ export class IcExtraComponent {
     {
       name: 'ECon Equipe de Concreto',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'https://www.facebook.com/econeescusp/',
+      url: 'https://linktr.ee/econ.usp',
     },
     {
       name: 'EESC - USP Aerodesign',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'http://www3.eesc.usp.br/aerodesign/',
+      url: 'https://aerodesign.eesc.usp.br/',
     },
     {
       name: 'EESC - USP Formula SAE',
@@ -80,7 +80,7 @@ export class IcExtraComponent {
     {
       name: 'EESC - USP Mileage',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'http://www.mileage.eesc.usp.br/',
+      url: 'https://mileage.eesc.usp.br/',
     },
     {
       name: 'EESC - USP Tupã',
@@ -98,7 +98,7 @@ export class IcExtraComponent {
     {
       name: 'Enactus CAASO - USP',
       categories: [ExtracurricularGroupTypes.Social],
-      url: 'https://www.facebook.com/EnactusCSaoCarlos/',
+      url: 'https://www.instagram.com/time_uspsc/',
     },
     {
       name: 'FoCA',
@@ -111,19 +111,24 @@ export class IcExtraComponent {
       url: 'https://www.facebook.com/gaperia/',
     },
     {
-      name: 'GEISA',
+      name: 'GEISA - Grupo de Estudos e Intervenções SocioAmbientais',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'https://www.facebook.com/geisasaocarlos/',
+      url: 'https://www.instagram.com/geisa.usp/',
+    },
+    {
+      name: 'GELOS - Grupo de Extensão em Livre & Open Source',
+      categories: [ExtracurricularGroupTypes.Technical],
+      url: 'https://gelos.club/sobre/',
     },
     {
       name: 'GMA - Grupo de Manutenção de Aeronaves',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'https://www.facebook.com/gmausp/',
+      url: 'https://www.instagram.com/gma_eesc_usp/',
     },
     {
-      name: 'Grupo de Som CAASO',
+      name: 'GSom - Grupo de Som CAASO',
       categories: [ExtracurricularGroupTypes.Artistic],
-      url: 'https://www.facebook.com/gsomcaaso/',
+      url: 'https://www.instagram.com/gsomcaaso/',
     },
     {
       name: 'IEEE Student Branch',
@@ -133,27 +138,27 @@ export class IcExtraComponent {
     {
       name: 'Liga de Empreendedorismo de São Carlos',
       categories: [ExtracurricularGroupTypes.Business],
-      url: 'https://www.facebook.com/ligadeempreendedorismosc/',
+      url: 'https://www.instagram.com/lesc_sanca/',
     },
     {
       name: 'Liga do Mercado Financeiro de São Carlos',
       categories: [ExtracurricularGroupTypes.Business],
-      url: 'https://www.lmf-saocarlos.com/',
+      url: 'https://www.facebook.com/lmf.saocarlos/',
     },
     {
       name: 'NUANCES',
       categories: [ExtracurricularGroupTypes.Representative],
-      url: 'https://www.facebook.com/nuancescaaso/?fref=mentions',
+      url: 'https://linktr.ee/Nuances_CAASO',
     },
     {
       name: 'Operação Natal',
       categories: [ExtracurricularGroupTypes.Social],
-      url: 'https://www.facebook.com/operacaonatalsc/',
+      url: 'https://operacaonatal.faiufscar.com/',
     },
     {
       name: 'Projeto Semente',
       categories: [ExtracurricularGroupTypes.Social],
-      url: 'https://www.facebook.com/semente.usp/',
+      url: 'https://semente.eesc.usp.br/',
     },
     {
       name: 'Projeto Sol',
@@ -163,27 +168,27 @@ export class IcExtraComponent {
     {
       name: 'SA-SEL',
       categories: [ExtracurricularGroupTypes.Representative],
-      url: 'https://www.facebook.com/sasel.usp/',
+      url: 'https://www.instagram.com/sasel.usp/',
     },
     {
       name: 'Sanca Social',
       categories: [ExtracurricularGroupTypes.Social],
-      url: 'https://www.facebook.com/sancasocial/',
+      url: 'http://sancasocial.icmc.usp.br/',
     },
     {
       name: 'Semear',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'http://www.semear.eesc.usp.br/',
+      url: 'https://semear.eesc.usp.br/',
     },
     {
       name: 'Topus - Pesquisas Aeroespaciais',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'http://facebook.com/grupotopus',
+      url: 'https://sites.google.com/view/topusprojetosaeroespaciais/home',
     },
     {
       name: 'Warthog Robotics',
       categories: [ExtracurricularGroupTypes.Technical],
-      url: 'https://www.facebook.com/WarthogRobotics/',
+      url: 'https://wr.sc.usp.br/',
     },
     {
       name: 'Zenith - USP',

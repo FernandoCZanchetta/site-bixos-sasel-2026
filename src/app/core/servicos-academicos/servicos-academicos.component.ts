@@ -27,22 +27,6 @@ export class ServicosAcademicosComponent {
     },
     {
       image: {
-        src: '/assets/images/servicos-academicos/canva.svg',
-        alt: 'Logo da Canva Pro',
-        caption: 'Canva Pro',
-      },
-      modal: {
-        image: {
-          src: '/assets/images/servicos-academicos/canva.svg',
-          alt: 'Logo da Canva Pro',
-        },
-        text: 'Aqueles que adquirem o pacote de desenvolvedor de aluno do GitHub também podem obter um ano de acesso gratuito ao Canva Pro. Para isso basta entrar no link abaixo, fazer o login e vincular com sua conta do GitHub.',
-        title: 'Canva Pro',
-        url: 'http://bit.ly/CanvaProEducation',
-      },
-    },
-    {
-      image: {
         src: '/assets/images/servicos-academicos/coursera.svg',
         alt: 'Logo da Coursera',
         caption: 'Coursera',
@@ -68,9 +52,9 @@ export class ServicosAcademicosComponent {
           src: '/assets/images/servicos-academicos/dell.svg',
           alt: 'Logo da Dell',
         },
-        text: 'Existem descontos voltados a estudantes para compras de eletrônicos na loja da Dell.Visite a página para saber valores e o passo a passo de como conseguir os descontos.',
+        text: 'Existem descontos voltados a estudantes para compras de eletrônicos na loja da Dell. Visite a página para saber valores e o passo a passo de como conseguir os descontos.',
         title: 'Dell',
-        url: 'http://bit.ly/DescontosDell',
+        url: 'https://www.dell.com/pt-br/lp/students',
       },
     },
     {
@@ -116,7 +100,7 @@ export class ServicosAcademicosComponent {
           src: '/assets/images/servicos-academicos/gsuite.svg',
           alt: 'Logo do GSuite',
         },
-        text: 'Estando logado no e-mail institucional você tem acesso ao Drive com 100 GB de armazenamento, ferramentas administrativas adicionais e configurações avançadas do Workspace da Google.',
+        text: 'Estando logado no e-mail institucional você tem acesso ao Drive com 15 GB de armazenamento, ferramentas administrativas adicionais e configurações avançadas do Workspace da Google.',
         title: 'GSuite',
         url: 'https://www.sti.usp.br/cooperacao/google-g-suite-education/',
       },
@@ -148,7 +132,7 @@ export class ServicosAcademicosComponent {
           src: '/assets/images/servicos-academicos/mubi.svg',
           alt: 'Logo do Mubi',
         },
-        text: 'Alunos USP têm acesso a plataforma MUBI com desconto na mensalidade para estudantes, de R$29,90 por mês para R$18,90 por mês.',
+        text: 'Alunos USP têm acesso a plataforma MUBI com desconto na mensalidade para estudantes, de R$34,90 por mês para R$21,90 por mês.',
         title: 'Mubi',
         url: 'https://mubi.com/pt/student',
       },
@@ -166,7 +150,7 @@ export class ServicosAcademicosComponent {
         },
         text: 'Aplicativo de organização com grande variedade de ferramentas. Ao se cadastrar com o e-mail USP, você recebe o plano “Personal”. Para ativar o plano “Personal Pro”, basta entrar na sua conta, clicar em “Settings & Members” > “Updates” > “Get free education plan” e criar sua senha.',
         title: 'Notion',
-        url: 'https://www.notion.so/',
+        url: 'https://www.notion.com/product/notion-for-education',
       },
     },
     {
@@ -214,7 +198,7 @@ export class ServicosAcademicosComponent {
         },
         text: 'Estudantes têm direito a 50% de desconto por um período de 12 meses consecutivos. É possível ativar até três períodos adicionais ao comprovar que ainda está qualificado para receber essa oferta.',
         title: 'Spotify Premium',
-        url: 'https://spotify.com',
+        url: 'https://www.spotify.com/br-pt/premium/#plans',
       },
     },
     {

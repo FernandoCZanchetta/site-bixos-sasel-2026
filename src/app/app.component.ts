@@ -21,7 +21,7 @@ export class AppComponent implements OnInit, OnDestroy {
         // eslint-disable-next-line
         const title = route.state.root.firstChild?.data['title']
         if (title) {
-          this.titleService.setTitle('Bixos Elétrica 2024 - ' + title)
+          this.titleService.setTitle('Bixos Elétrica 2026 - ' + title)
         }
       }
     })

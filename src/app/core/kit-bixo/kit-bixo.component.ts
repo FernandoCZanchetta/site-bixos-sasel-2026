@@ -9,11 +9,19 @@ export class KitBixoComponent {
   lastEditionsTextAndImageList: AlternatingLayoutModel[] = [
     {
       image: {
+        alt: 'Kit Bixo 2024',
+        src: '/assets/images/kit-bixo/kit_bixo_2024.jpg',
+        caption: 'Kit Bixo de 2024',
+      },
+      text: 'Na imagem ao lado, temos a edição de 2024, cujo tema foi "brutalist streetwear" e "mitologia grega".',
+    },
+    {
+      image: {
         alt: 'Kit Bixo 2023',
         src: '/assets/images/kit-bixo/kit_bixo_2023.jpg',
         caption: 'Kit Bixo de 2023',
       },
-      text: 'Ao lado temos a edição de 2023, cujo tema foi "neon".',
+      text: 'Ao lado, temos a edição de 2023, cujo tema foi "neon".',
     },
     {
       image: {
@@ -21,7 +29,7 @@ export class KitBixoComponent {
         src: '/assets/images/kit-bixo/kit_bixo_2022.jpg',
         caption: 'Kit Bixo de 2022',
       },
-      text: 'Ao lado podemos ver a edição anterior, ou seja, de 2022, cujo tema foi "grafite".',
+      text: 'Ao lado, podemos ver uma das edições anteriores, no caso, de 2022, cujo tema foi "grafite".',
     },
     {
       image: {
@@ -29,7 +37,7 @@ export class KitBixoComponent {
         src: '/assets/images/kit-bixo/kit_bixo_2021.jpg',
         caption: 'Kit Bixo de 2021',
       },
-      text: 'Ao lado podemos ver a edição de 2021, cujo tema foi "Super-Bixo no Bixoverso".',
+      text: 'Aqui, podemos ver a edição de 2021, cujo tema foi "Super-Bixo no Bixoverso".',
     },
     {
       image: {
@@ -41,6 +49,30 @@ export class KitBixoComponent {
     },
   ]
   cervejada: ImageGridItemModel[] = [
+    {
+      image: {
+        src: 'assets/images/cervejada/eletricomp_2024_1.jpg',
+        alt: 'Grupo de Pessoas na Cervejada 2024',
+        caption: 'Grupo de Pessoas curtindo a Cervejada de 2024',
+      },
+      fill: true,
+    },
+    {
+      image: {
+        src: 'assets/images/cervejada/eletricomp_2024_2.jpg',
+        alt: 'Grupo de Pessoas na Cervejada 2024',
+        caption: 'Grupo de Pessoas na Cervejada de 2024',
+      },
+      fill: true,
+    },
+    {
+      image: {
+        src: 'assets/images/cervejada/bixos_cervejada_2023.jpg',
+        alt: 'Bixos na Cervejada 2023',
+        caption: 'Bixos Avistados na Cervejada 2023',
+      },
+      fill: true,
+    },
     {
       image: {
         src: 'assets/images/cervejada/panoramageral.jpg',

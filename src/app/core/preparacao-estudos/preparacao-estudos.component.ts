@@ -56,7 +56,7 @@ export class PreparacaoEstudosComponent {
         alt: 'google calendar',
         caption: 'Google Calendar',
       },
-      url: 'https://workspace.google.com/',
+      url: 'https://calendar.google.com/',
     },
     {
       image: {
@@ -328,6 +328,49 @@ export class PreparacaoEstudosComponent {
         caption: 'Integral Calculator',
       },
       url: 'https://www.integral-calculator.com/',
+    },
+  ]
+
+  AILogos: ImageGridItemModel[] = [
+    {
+      image: {
+        src: '/assets/images/preparacao/chatGPT.png',
+        alt: 'ChatGPT',
+        caption: 'ChatGPT',
+      },
+      url: 'https://chatgpt.com/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/deepseek.png',
+        alt: 'deepseek',
+        caption: 'DeepSeek',
+      },
+      url: 'https://www.deepseek.com/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/blackboxai.png',
+        alt: 'blackbox',
+        caption: 'Blackbox AI',
+      },
+      url: 'https://www.blackbox.ai/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/sapienschat.png',
+        alt: 'Sapiens Chat',
+        caption: 'Sapiens Chat',
+      },
+      url: 'https://sapienschat.com/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/gemini.png',
+        alt: 'gemini',
+        caption: 'Gemini',
+      },
+      url: 'https://gemini.google.com/?hl=pt-BR',
     },
   ]
 }
