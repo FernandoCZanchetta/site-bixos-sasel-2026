@@ -17,10 +17,12 @@ export class GroupsPanelComponent implements OnInit {
     {
       name: SocialMedia.Instagram,
       url: 'https://www.instagram.com/eletrica_usp2025/',
+      available: true,
     },
     {
       name: SocialMedia.WhatsAppGroup,
       url: 'https://chat.whatsapp.com/LsKtWV3OlcoAB9Xg6BgryT',
+      available: true,
     },
   ]
 }
