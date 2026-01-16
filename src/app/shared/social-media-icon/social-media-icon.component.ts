@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core'
-import { SocialMediaModel } from '@models'
+import { ModalModel, SocialMediaModel } from '@models'
 import { SocialMediaService } from '@services'
 
 @Component({
@@ -14,6 +14,14 @@ export class SocialMediaIconComponent implements OnInit {
 
   tooltip = ''
   tooltipTimeout?: any
+
+  openModal = false
+  modal: ModalModel = {
+    image: { src: '', alt: '' },
+    text: '',
+    url: '',
+    title: '',
+  }
 
   constructor(private socialMediaService: SocialMediaService) {}
 
@@ -35,5 +43,10 @@ export class SocialMediaIconComponent implements OnInit {
     this.tooltipTimeout = setTimeout(() => {
       this.tooltip = this.socialMediaService.getTooltipText()
     }, 300)
+  }
+
+  createModal(modal: ModalModel) {
+    this.modal = modal
+    this.openModal = true
   }
 }

@@ -17,6 +17,7 @@ export class CervejadaPanelComponent implements OnInit {
     {
       name: SocialMedia.Instagram,
       url: 'https://instagram.com/cervejada.eletricomp/',
+      available: true,
     },
   ]
 }

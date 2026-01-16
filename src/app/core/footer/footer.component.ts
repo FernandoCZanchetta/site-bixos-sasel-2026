@@ -8,19 +8,33 @@ import { SocialMedia, SocialMediaModel } from '@models'
 })
 export class FooterComponent {
   socialMedia: SocialMediaModel[] = [
-    { name: SocialMedia.Facebook, url: 'https://www.facebook.com/sasel.usp' },
-    { name: SocialMedia.Instagram, url: 'https://www.instagram.com/sasel.usp/' },
-    { name: SocialMedia.TikTok, url: 'https://www.tiktok.com/@sasel.usp/' },
-    { name: SocialMedia.WhatsApp, url: '+55 (16) 99619-0880' },
+    {
+      name: SocialMedia.Facebook,
+      url: 'https://www.facebook.com/sasel.usp',
+      available: true,
+    },
+    {
+      name: SocialMedia.Instagram,
+      url: 'https://www.instagram.com/sasel.usp/',
+      available: true,
+    },
+    {
+      name: SocialMedia.TikTok,
+      url: 'https://www.tiktok.com/@sasel.usp/',
+      available: true,
+    },
+    { name: SocialMedia.WhatsApp, url: '+55 (16) 99619-0880', available: true },
     {
       name: SocialMedia.LinkedIn,
       url: 'https://www.linkedin.com/company/sasel-eesc-usp',
+      available: true,
     },
-    { name: SocialMedia.Email, url: 'sasel.usp@gmail.com' },
+    { name: SocialMedia.Email, url: 'sasel.usp@gmail.com', available: true },
     {
       name: SocialMedia.YouTube,
       url: 'https://www.youtube.com/channel/UCCIw2l3rNCepuZsugA4BC7w',
+      available: true,
     },
-    { name: SocialMedia.GitHub, url: 'https://github.com/sa-sel' },
+    { name: SocialMedia.GitHub, url: 'https://github.com/sa-sel', available: true },
   ]
 }

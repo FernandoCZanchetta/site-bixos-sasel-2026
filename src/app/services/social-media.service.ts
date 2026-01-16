@@ -48,6 +48,8 @@ export class SocialMediaService {
       name: network.name,
       url: this.getLink(network, 'Olá, SA-SEL! Tudo bem?'),
       icon: SocialMediaIconMap[network.name],
+      available: network.available,
+      warningModal: network.warningModal,
     }
   }
 }

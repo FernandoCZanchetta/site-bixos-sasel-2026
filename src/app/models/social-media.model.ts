@@ -1,3 +1,5 @@
+import { ModalModel } from './modal.model'
+
 export enum SocialMedia {
   Discord = 'Discord',
   Email = 'Email',
@@ -39,5 +41,7 @@ export const SocialMediaIconMap: Record<SocialMedia, SocialMediaIcons> = {
 export interface SocialMediaModel {
   name: SocialMedia
   url: string
+  available: boolean
   icon?: SocialMediaIcons
+  warningModal?: ModalModel
 }
