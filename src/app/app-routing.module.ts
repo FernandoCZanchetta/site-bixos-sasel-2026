@@ -6,7 +6,7 @@ import {
   CampusComponent,
   HomeComponent,
   IcExtraComponent,
-  KitBixoComponent,
+  // KitBixoComponent,
   MatriculaComponent,
   MoradiasComponent,
   OuvidoriaComponent,
@@ -224,18 +224,18 @@ const routes: RouteModel[] = [
       bgDarkness: 0.4,
     },
   },
-  {
-    path: 'kit-bixo',
-    component: KitBixoComponent,
-    data: {
-      title: 'Kit Bixo',
-      background: [
-        {
-          src: '/assets/images/kit-bixo/banner.jpg',
-        },
-      ],
-    },
-  },
+  // {
+  //   path: 'kit-bixo',
+  //   component: KitBixoComponent,
+  //   data: {
+  //     title: 'Kit Bixo',
+  //     background: [
+  //       {
+  //         src: '/assets/images/kit-bixo/banner.jpg',
+  //       },
+  //     ],
+  //   },
+  // },
   { path: '**', redirectTo: '/' } as any,
 ]
 
