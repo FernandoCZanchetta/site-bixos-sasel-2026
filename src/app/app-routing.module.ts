@@ -6,7 +6,7 @@ import {
   CampusComponent,
   HomeComponent,
   IcExtraComponent,
-  KitBixoComponent,
+  // KitBixoComponent,
   MatriculaComponent,
   MoradiasComponent,
   OuvidoriaComponent,
