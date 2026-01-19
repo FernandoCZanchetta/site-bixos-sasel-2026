@@ -50,6 +50,14 @@ const routes: RouteModel[] = [
           src: '/assets/images/home/recepcao_2024_3.jpg',
           alt: 'Bixos ingressantes de 2024 no Lab dos Bixos',
         },
+        {
+          src: '/assets/images/home/recepcao_2025_1.jpg',
+          alt: 'Bixos ingressantes de 2025',
+        },
+        {
+          src: '/assets/images/home/recepcao_2025_2.jpg',
+          alt: 'Bixos ingressantes de 2025 no Lab dos Bixos',
+        },
       ],
     },
   },

@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "npx eslint . && npx prettier -c .",
-    "format": "npx eslint --fix .; npx prettier --write .",
+    "format": "npx eslint --fix . && npx prettier --write .",
     "precommit": "npm lint-staged && npm lint"
   },
   "lint-staged": {
