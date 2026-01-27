@@ -21,8 +21,8 @@ export class GroupsPanelComponent implements OnInit {
     },
     {
       name: SocialMedia.WhatsAppGroup,
-      url: 'https://chat.whatsapp.com/',
-      available: false,
+      url: 'https://chat.whatsapp.com/ERd1JOZ4mdu0epWQzu9WQV',
+      available: true,
       warningModal: {
         title: 'Calma lá, bixão!',
         text: 'O grupo do WhatsApp ainda não está disponível...\nFique atento no nosso instagram e também aqui no nosso site para que você possa ingressar no grupo logo que ele for divulgado!\n Nossa previsão é que a abertura do grupo ocorra no sábado, dia 24/01!',
