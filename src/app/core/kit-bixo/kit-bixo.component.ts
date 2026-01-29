@@ -9,6 +9,14 @@ export class KitBixoComponent {
   lastEditionsTextAndImageList: AlternatingLayoutModel[] = [
     {
       image: {
+        alt: 'Kit Bixo 2025',
+        src: '/assets/images/kit-bixo/kit_bixo_2025.jpg',
+        caption: 'Kit Bixo de 2025',
+      },
+      text: 'Veja, esta foi a edição de 2025, com tema "Pokémon".',
+    },
+    {
+      image: {
         alt: 'Kit Bixo 2024',
         src: '/assets/images/kit-bixo/kit_bixo_2024.jpg',
         caption: 'Kit Bixo de 2024',
