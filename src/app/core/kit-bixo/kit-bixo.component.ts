@@ -9,6 +9,14 @@ export class KitBixoComponent {
   lastEditionsTextAndImageList: AlternatingLayoutModel[] = [
     {
       image: {
+        alt: 'Kit Bixo 2025',
+        src: '/assets/images/kit-bixo/kit_bixo_2025.jpg',
+        caption: 'Kit Bixo de 2025',
+      },
+      text: 'Veja, esta foi a edição de 2025, com tema "Pokémon".',
+    },
+    {
+      image: {
         alt: 'Kit Bixo 2024',
         src: '/assets/images/kit-bixo/kit_bixo_2024.jpg',
         caption: 'Kit Bixo de 2024',
@@ -49,6 +57,14 @@ export class KitBixoComponent {
     },
   ]
   cervejada: ImageGridItemModel[] = [
+    {
+      image: {
+        src: 'assets/images/cervejada/bixos_cervejada_2025.jpg',
+        alt: 'Bixos na Cervejada 2025',
+        caption: 'Bixos marcando presença na Cervejada 2025',
+      },
+      fill: true,
+    },
     {
       image: {
         src: 'assets/images/cervejada/eletricomp_2024_1.jpg',
