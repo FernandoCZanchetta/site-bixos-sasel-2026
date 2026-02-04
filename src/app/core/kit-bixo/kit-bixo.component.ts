@@ -59,6 +59,14 @@ export class KitBixoComponent {
   cervejada: ImageGridItemModel[] = [
     {
       image: {
+        src: 'assets/images/cervejada/bixos_cervejada_2025.jpg',
+        alt: 'Bixos na Cervejada 2025',
+        caption: 'Bixos marcando presença na Cervejada 2025',
+      },
+      fill: true,
+    },
+    {
+      image: {
         src: 'assets/images/cervejada/eletricomp_2024_1.jpg',
         alt: 'Grupo de Pessoas na Cervejada 2024',
         caption: 'Grupo de Pessoas curtindo a Cervejada de 2024',
