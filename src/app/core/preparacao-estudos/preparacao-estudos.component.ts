@@ -103,7 +103,7 @@ export class PreparacaoEstudosComponent {
     },
   ]
 
-  otherToolsLogos: ImageGridItemModel[] = [
+  graduationToolsLogos: ImageGridItemModel[] = [
     {
       image: {
         src: '/assets/images/preparacao/eesc.jpg',
@@ -112,6 +112,25 @@ export class PreparacaoEstudosComponent {
       },
       url: 'https://eesc.usp.br/intranet/',
     },
+    {
+      image: {
+        src: '/assets/images/preparacao/classroom.png',
+        alt: 'classroom',
+        caption: 'Google Classroom',
+      },
+      url: 'https://edu.google.com/intl/pt/products/classroom/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/edisciplinas.png',
+        alt: 'e-disciplinas',
+        caption: 'E-Disciplinas',
+      },
+      url: 'https://edisciplinas.usp.br/acessar/',
+    },
+  ]
+
+  videoconferenceToolsLogos: ImageGridItemModel[] = [
     {
       image: {
         src: '/assets/images/preparacao/meet.png',
@@ -130,19 +149,30 @@ export class PreparacaoEstudosComponent {
     },
     {
       image: {
-        src: '/assets/images/preparacao/classroom.png',
-        alt: 'classroom',
-        caption: 'Google Classroom',
+        src: '/assets/images/preparacao/discord.png',
+        alt: 'discord',
+        caption: 'Discord',
       },
-      url: 'https://edu.google.com/intl/pt/products/classroom/',
+      url: 'https://discord.com/',
+    },
+  ]
+
+  presentationToolsLogos: ImageGridItemModel[] = [
+    {
+      image: {
+        src: '/assets/images/preparacao/canva.png',
+        alt: 'canva',
+        caption: 'Canva',
+      },
+      url: 'https://www.canva.com/',
     },
     {
       image: {
-        src: '/assets/images/preparacao/edisciplinas.png',
-        alt: 'edisciplinas',
-        caption: 'Edisciplinas',
+        src: '/assets/images/preparacao/slides.png',
+        alt: 'google slides',
+        caption: 'Google Slides',
       },
-      url: 'https://edisciplinas.usp.br/acessar/',
+      url: 'https://docs.google.com/presentation/',
     },
   ]
 
@@ -203,6 +233,22 @@ export class PreparacaoEstudosComponent {
       },
       url: 'https://fritzing.org/',
     },
+    {
+      image: {
+        src: '/assets/images/preparacao/autocad-electrical.png',
+        alt: 'autocad electrical',
+        caption: 'AutoCAD Electrical',
+      },
+      url: 'https://www.autodesk.com/br/products/autocad/included-toolsets/autocad-electrical',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/altium.png',
+        alt: 'altium designer',
+        caption: 'Altium Designer',
+      },
+      url: 'https://www.altium.com/altium-designer',
+    },
   ]
 
   programmingToolsLogos: ImageGridItemModel[] = [
@@ -253,6 +299,14 @@ export class PreparacaoEstudosComponent {
         caption: 'ArduinoIDE',
       },
       url: 'https://www.arduino.cc/en/software',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/stm32cubeide.png',
+        alt: 'stm32cubeide',
+        caption: 'STM32CubeIDE',
+      },
+      url: 'https://www.st.com/en/development-tools/stm32cubeide.html',
     },
     {
       image: {
@@ -331,7 +385,7 @@ export class PreparacaoEstudosComponent {
     },
   ]
 
-  AILogos: ImageGridItemModel[] = [
+  AIToolsLogos: ImageGridItemModel[] = [
     {
       image: {
         src: '/assets/images/preparacao/chatGPT.png',
@@ -371,6 +425,30 @@ export class PreparacaoEstudosComponent {
         caption: 'Gemini',
       },
       url: 'https://gemini.google.com/?hl=pt-BR',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/claude.png',
+        alt: 'claude',
+        caption: 'Claude',
+      },
+      url: 'https://claude.ai/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/perplexity.png',
+        alt: 'perplexity',
+        caption: 'Perplexity',
+      },
+      url: 'https://www.perplexity.ai',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/freepik.png',
+        alt: 'freepik',
+        caption: 'Freepik',
+      },
+      url: 'https://www.freepik.com',
     },
   ]
 }

@@ -46,7 +46,7 @@
 <section class="text-justify">
   <a id="ferramentas"></a>
 
-  <app-title [subtitle]="true">Sites e softwares</app-title>
+  <app-title [subtitle]="true">Sites e Softwares</app-title>
   <p>
     Cada ferramenta, e não somente as listadas abaixo, tem um propósito específico. Por
     isso, mesmo que algum software ou site tenha mais de uma função, ele provavelmente
@@ -54,7 +54,7 @@
     separamos para você:
   </p>
 
-  <h5>Gerenciador de tarefas:</h5>
+  <h5>Gerenciador de Tarefas:</h5>
   <app-image-grid [gridItems]="taskManagerLogos"></app-image-grid>
 
   <h5>Planejamento:</h5>
@@ -63,8 +63,14 @@
   <h5>Anotação:</h5>
   <app-image-grid [gridItems]="notetakingLogos"></app-image-grid>
 
-  <h5>Outras ferramentas:</h5>
-  <app-image-grid [gridItems]="otherToolsLogos"></app-image-grid>
+  <h5>Graduação & Disciplinas:</h5>
+  <app-image-grid [gridItems]="graduationToolsLogos"></app-image-grid>
+
+  <h5>Videochamadas:</h5>
+  <app-image-grid [gridItems]="videoconferenceToolsLogos"></app-image-grid>
+
+  <h5>Apresentações:</h5>
+  <app-image-grid [gridItems]="presentationToolsLogos"></app-image-grid>
 
   <h5>Simulação/Circuito Elétrico:</h5>
   <app-image-grid [gridItems]="electricalToolsLogos"></app-image-grid>
@@ -76,5 +82,5 @@
   <app-image-grid [gridItems]="mathematicalToolsLogos"></app-image-grid>
 
   <h5>Inteligência Artificial (IA):</h5>
-  <app-image-grid [gridItems]="AILogos"></app-image-grid>
+  <app-image-grid [gridItems]="AIToolsLogos"></app-image-grid>
 </section>
