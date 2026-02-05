@@ -130,6 +130,7 @@ export class PreparacaoEstudosComponent {
     },
   ]
 
+  videoconferenceToolsLogos: ImageGridItemModel[] = [
     {
       image: {
         src: '/assets/images/preparacao/meet.png',
@@ -148,19 +149,11 @@ export class PreparacaoEstudosComponent {
     },
     {
       image: {
-        src: '/assets/images/preparacao/classroom.png',
-        alt: 'classroom',
-        caption: 'Google Classroom',
+        src: '/assets/images/preparacao/discord.png',
+        alt: 'discord',
+        caption: 'Discord',
       },
-      url: 'https://edu.google.com/intl/pt/products/classroom/',
-    },
-    {
-      image: {
-        src: '/assets/images/preparacao/edisciplinas.png',
-        alt: 'edisciplinas',
-        caption: 'Edisciplinas',
-      },
-      url: 'https://edisciplinas.usp.br/acessar/',
+      url: 'https://discord.com/',
     },
   ]
 
