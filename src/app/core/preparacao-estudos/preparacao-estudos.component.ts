@@ -366,7 +366,7 @@ export class PreparacaoEstudosComponent {
     },
   ]
 
-  AILogos: ImageGridItemModel[] = [
+  AIToolsLogos: ImageGridItemModel[] = [
     {
       image: {
         src: '/assets/images/preparacao/chatGPT.png',
