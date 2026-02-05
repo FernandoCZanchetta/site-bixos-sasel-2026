@@ -103,7 +103,7 @@ export class PreparacaoEstudosComponent {
     },
   ]
 
-  otherToolsLogos: ImageGridItemModel[] = [
+  graduationToolsLogos: ImageGridItemModel[] = [
     {
       image: {
         src: '/assets/images/preparacao/eesc.jpg',
@@ -112,6 +112,24 @@ export class PreparacaoEstudosComponent {
       },
       url: 'https://eesc.usp.br/intranet/',
     },
+    {
+      image: {
+        src: '/assets/images/preparacao/classroom.png',
+        alt: 'classroom',
+        caption: 'Google Classroom',
+      },
+      url: 'https://edu.google.com/intl/pt/products/classroom/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/edisciplinas.png',
+        alt: 'e-disciplinas',
+        caption: 'E-Disciplinas',
+      },
+      url: 'https://edisciplinas.usp.br/acessar/',
+    },
+  ]
+
     {
       image: {
         src: '/assets/images/preparacao/meet.png',
