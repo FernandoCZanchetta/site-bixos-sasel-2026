@@ -157,6 +157,25 @@ export class PreparacaoEstudosComponent {
     },
   ]
 
+  presentationToolsLogos: ImageGridItemModel[] = [
+    {
+      image: {
+        src: '/assets/images/preparacao/canva.png',
+        alt: 'canva',
+        caption: 'Canva',
+      },
+      url: 'https://www.canva.com/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/slides.png',
+        alt: 'google slides',
+        caption: 'Google Slides',
+      },
+      url: 'https://docs.google.com/presentation/',
+    },
+  ]
+
   electricalToolsLogos: ImageGridItemModel[] = [
     {
       image: {
