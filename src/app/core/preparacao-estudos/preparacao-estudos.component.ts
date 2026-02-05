@@ -214,6 +214,22 @@ export class PreparacaoEstudosComponent {
       },
       url: 'https://fritzing.org/',
     },
+    {
+      image: {
+        src: '/assets/images/preparacao/autocad-electrical.png',
+        alt: 'autocad electrical',
+        caption: 'AutoCAD Electrical',
+      },
+      url: 'https://www.autodesk.com/br/products/autocad/included-toolsets/autocad-electrical',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/altium.png',
+        alt: 'altium designer',
+        caption: 'Altium Designer',
+      },
+      url: 'https://www.altium.com/altium-designer',
+    },
   ]
 
   programmingToolsLogos: ImageGridItemModel[] = [
