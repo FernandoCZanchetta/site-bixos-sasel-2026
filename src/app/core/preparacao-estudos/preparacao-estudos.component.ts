@@ -407,5 +407,29 @@ export class PreparacaoEstudosComponent {
       },
       url: 'https://gemini.google.com/?hl=pt-BR',
     },
+    {
+      image: {
+        src: '/assets/images/preparacao/claude.png',
+        alt: 'claude',
+        caption: 'Claude',
+      },
+      url: 'https://claude.ai/',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/perplexity.png',
+        alt: 'perplexity',
+        caption: 'Perplexity',
+      },
+      url: 'https://www.perplexity.ai',
+    },
+    {
+      image: {
+        src: '/assets/images/preparacao/freepik.png',
+        alt: 'freepik',
+        caption: 'Freepik',
+      },
+      url: 'https://www.freepik.com',
+    },
   ]
 }
