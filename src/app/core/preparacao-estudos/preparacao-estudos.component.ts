@@ -283,6 +283,14 @@ export class PreparacaoEstudosComponent {
     },
     {
       image: {
+        src: '/assets/images/preparacao/stm32cubeide.png',
+        alt: 'stm32cubeide',
+        caption: 'STM32CubeIDE',
+      },
+      url: 'https://www.st.com/en/development-tools/stm32cubeide.html',
+    },
+    {
+      image: {
         src: '/assets/images/preparacao/matlab.png',
         alt: 'matlab',
         caption: 'MATLAB',
